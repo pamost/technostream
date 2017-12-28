@@ -40,4 +40,36 @@ func main() {
 	// комплексные числа
 	z := 2 + 2i
 	println("complex number: ", z)
+
+	// операции со строками
+	s1 := "Pavel"
+	s2 := "Mostovoy"
+	fullName := s1 + " " + s2
+	print("Name: ", fullName, len(fullName))
+
+	escaping := `Hello\r\n
+	World`
+	println("as is escaping: ", escaping)
+
+
+	// значения по умолчанию
+	var defInt int
+	var defFloat float32
+	var defStr string
+	var defBool bool
+	println("default values: ", defInt, defFloat, defStr, defBool)
+
+	// несколько переменных
+	var v1, v2 string = "v1", "v2"
+	println(v1, v2)
+
+	var (
+		m1 = 12
+		m2 = "string"
+		m3 = 13
+	)
+	println(m1, m2, m3)
+
+
+
 }
