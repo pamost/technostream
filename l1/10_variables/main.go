@@ -51,7 +51,6 @@ func main() {
 	World`
 	println("as is escaping: ", escaping)
 
-
 	// значения по умолчанию
 	var defInt int
 	var defFloat float32
@@ -69,7 +68,5 @@ func main() {
 		m3 = 13
 	)
 	println(m1, m2, m3)
-
-
 
 }
